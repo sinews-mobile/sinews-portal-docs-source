@@ -18,7 +18,7 @@ Now, two-factor authentication (2FA) has been configured for your login.
 
 During the next login attempt, you will be asked to enter an OTP code.
 
-![](./img/two-factor-auth-img/Security-Two-factor_authentication_required-c76c26a214ee6ff74fa09bf77e9e3468.png)
+![](./img/two-factor-auth-img/SinewsMobile1.jpg)
 
 | If you lost access to your authenticator app, contact the service provider or another portal user who can reset your 2FA key. |
 | --- |
