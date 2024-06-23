@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Cloud Call Center Documentation',
-  tagline: 'CloudCall Center and Cloud PBX',
+  title: 'Sinews-Mobile Documentation',
+  tagline: 'sinews mobile',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -18,8 +18,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'portaone', // Usually your GitHub org/user name.
-  projectName: 'cloudpbx-portal-docs', // Usually your repo name.
+  organizationName: 'sinews-mobile', // Usually your GitHub org/user name.
+  projectName: 'Sinews-mobile-portal-docs', // Usually your repo name.
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
@@ -43,7 +43,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/portaone/cloudpbx-portal-docs-source/tree/development/',
+            'https://github.com/sinews-mobile/sinews-portal-docs-source',
         },
         blog: {
           showReadingTime: true,
@@ -68,10 +68,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Cloud Call Center docs',
+        title: 'Sinews-mobile',
         logo: {
-          alt: 'Cloud Call Center documentation logo',
-          src: 'img/PortaOne-brand-asset--logo-symbol.svg',
+          alt: 'Sinews-Mobile documentation logo',
+          src: 'img/PsortaOne-brand-asset--logo-symbol.svg',
         },
         items: [
           {
@@ -82,7 +82,7 @@ const config = {
           },
           {to: '/blog', label: 'News and release notes', position: 'left'},
           {
-            href: 'https://github.com/portaone',
+            href: 'https://github.com/sinews-mobile',
             label: 'GitHub',
             position: 'right',
           },
@@ -126,12 +126,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/portaone',
+                href: 'https://github.com/sinews-mobile',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} PortaOne, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Sinews-Mobile. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

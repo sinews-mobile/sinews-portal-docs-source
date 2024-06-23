@@ -11,28 +11,31 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Learn the solution',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/undraw_knowledge_re_5v9l.svg').default,
     description: (
       <>
-        Learn the solution to get your Cloud Call Center up and running quickly.
+        Discover how to get your Cloud Call Center up and running quickly.
+        {/* Learn the solution to get your Cloud Call Center up and running quickly. */}
       </>
     ),
   },
   {
     title: 'Focus on productivity',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/undraw_dev_productivity_re_fylf.svg').default,
     description: (
       <>
-        With our tutorials you will get best effeciency.
+        {/* With our tutorials you will get best effeciency. */}
+        With our tutorials, you will achieve optimal efficiency.
       </>
     ),
   },
   {
     title: 'Stay updated',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/undraw_updates_re_o5af.svg').default,
     description: (
       <>
-        Check News and release notes to know what to try next.
+        {/* Check News and release notes to know what to try next. */}
+        Review the news and release notes to determine the next steps.
       </>
     ),
   },
