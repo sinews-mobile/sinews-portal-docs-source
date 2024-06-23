@@ -14,12 +14,12 @@ const config = {
   url: 'https://sinews-mobile.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/cloudpbx-portal-docs/',
+  baseUrl: '/sinews-portal-docs-source',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'sinews-mobile', // Usually your GitHub org/user name.
-  projectName: 'Sinews-mobile-portal-docs', // Usually your repo name.
+  projectName: 'sinews-portal-docs-source', // Usually your repo name.
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
@@ -45,13 +45,13 @@ const config = {
           editUrl:
             'https://github.com/sinews-mobile/sinews-portal-docs-source',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/portaone/cloudpbx-portal-docs-source/tree/development/',
-        },
+        // blog: {
+        //   showReadingTime: true,
+        //   // Please change this to your repo.
+        //   // Remove this to remove the "edit this page" links.
+        //   editUrl:
+        //     'https://github.com/portaone/cloudpbx-portal-docs-source/tree/development/',
+        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
