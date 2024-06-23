@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcloudpbx_portal_docs=self.webpackChunkcloudpbx_portal_docs||[]).push([[3511],{9349:s=>{s.exports=JSON.parse('{"label":"release notes","permalink":"/sinews-portal-docs-source/blog/tags/release-notes","allTagsPath":"/sinews-portal-docs-source/blog/tags","count":4}')}}]);

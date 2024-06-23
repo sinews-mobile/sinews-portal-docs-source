@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://sinews-mobile.github.io/sinews-portal-docs-source/blog</id>
+    <title>Sinews-Mobile Documentation Blog</title>
+    <updated>2023-06-14T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://sinews-mobile.github.io/sinews-portal-docs-source/blog"/>
+    <subtitle>Sinews-Mobile Documentation Blog</subtitle>
+    <icon>https://sinews-mobile.github.io/sinews-portal-docs-source/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Release Notes 0.57.1]]></title>
+        <id>https://sinews-mobile.github.io/sinews-portal-docs-source/blog/release-notes-0.57.1</id>
+        <link href="https://sinews-mobile.github.io/sinews-portal-docs-source/blog/release-notes-0.57.1"/>
+        <updated>2023-06-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Release 0.57.1 brings a few bugfixes while we are working on 0.58.0]]></summary>
+        <content type="html"><![CDATA[<p>Release 0.57.1 brings a few bugfixes while we are working on 0.58.0</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bugfixes">Bugfixes:<a href="#bugfixes" class="hash-link" aria-label="Direct link to Bugfixes:" title="Direct link to Bugfixes:">​</a></h3><ul><li>ICAP-1910 Adjust the German and Portuguese translations</li><li>ICAP-1886 Call volumes widget shows wrong statistics if a donut chart is selected</li><li>ICAP-1887 The filter's label is missing when Table is changed with Donut chart for a call volumes widget</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="important-news-about-the-roadmap-and-next-steps-from-our-side">Important news about the roadmap and next steps from our side:<a href="#important-news-about-the-roadmap-and-next-steps-from-our-side" class="hash-link" aria-label="Direct link to Important news about the roadmap and next steps from our side:" title="Direct link to Important news about the roadmap and next steps from our side:">​</a></h3><ul><li>We're working on upload of extensions from CSV to simplify the onboarding of new customers. Since upload from CSV requires PortaSwitch MR106, updates to 0.58.0 will be postponed until your PortaSwitch is updated.</li><li>We are evaluating possible solutions for the documentation of the portal.</li><li>If you are interested in having documentation on your own domain name or in translation to other languages - please reach out to us.</li></ul>]]></content>
+        <author>
+            <name>Oleg Shevtsov</name>
+            <uri>https://www.linkedin.com/in/olegshevtsov/</uri>
+        </author>
+        <category label="release notes" term="release notes"/>
+        <category label="portal" term="portal"/>
+        <category label="0.57.1" term="0.57.1"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Release Notes 0.57.0]]></title>
+        <id>https://sinews-mobile.github.io/sinews-portal-docs-source/blog/release-notes-0.57.0</id>
+        <link href="https://sinews-mobile.github.io/sinews-portal-docs-source/blog/release-notes-0.57.0"/>
+        <updated>2023-05-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Release 0.57.0 brings wallboards in fullscreen mode, useful for creating information radiators for a team, such as big monitors or TV screens.]]></summary>
+        <content type="html"><![CDATA[<p>Release 0.57.0 brings wallboards in fullscreen mode, useful for creating information radiators for a team, such as big monitors or TV screens.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements:<a href="#enhancements" class="hash-link" aria-label="Direct link to Enhancements:" title="Direct link to Enhancements:">​</a></h3><ul><li>ICAP-1716: Allow users to open the Wallboard in a full-screen mode</li><li>ICAP-1744: Show a hyphen in Active calls column for the list of SIP trunks in case there are no active calls</li><li>ICAP-1873: Add new translations for German and Brazilian Portuguese</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bugfixes">Bugfixes:<a href="#bugfixes" class="hash-link" aria-label="Direct link to Bugfixes:" title="Direct link to Bugfixes:">​</a></h3><ul><li>ICAP-1452: Call screening time filters display DB value instead of human-readable format</li><li>ICAP-1555: Pager is broken after a device is removed from a page following the first page</li><li>ICAP-1593: Portal crashes on opening extension page if API role restricts access to DID numbers</li><li>ICAP-1595: Newly created auto-attendant menu is not shown after going back to the menu list</li><li>ICAP-1599: Pager for device list is not changed after the upload</li><li>ICAP-1667: Login page is not returned after clicking Back in browser window from 2FA page</li><li>ICAP-1669: The wrong message is shown after generating and confirming MFA config from the profile page</li><li>ICAP-1677: Notification about enabling 2FA is not shown if MFA key was configured before</li><li>ICAP-1708: Do not show hours for calls that last for 1 minute</li><li>ICAP-1739: Counter for Fax mailboxes, DID numbers and Devices</li><li>ICAP-1740: Total is not changed after removing extension from the list</li><li>ICAP-1608: Remove the error if a file is chosen as a MOH file for a call queue</li><li>ICAP-1799: No German and Portuguese localization for call recording notification error</li><li>ICAP-1853: Error on attempt to open entity after confirming saving unsaved changes</li><li>ICAP-1868: "There is no data to display" is not shown for "Call volumes" widget if the time range is 5 or 7 days and there were no calls for this period</li><li>ICAP-1874: Non-standard style of the donut chart for a call volumes widget</li><li>ICAP-1875: Portal crashes on opening SIP trunk page if API role restricts access to DID numbers</li><li>ICAP-1877: The loading spinner is not centrally aligned when devices are being uploaded from a CSV file</li><li>ICAP-1888: Layout issue with localized Auto refresh rate</li></ul>]]></content>
+        <author>
+            <name>Oleg Shevtsov</name>
+            <uri>https://www.linkedin.com/in/olegshevtsov/</uri>
+        </author>
+        <category label="release notes" term="release notes"/>
+        <category label="portal" term="portal"/>
+        <category label="0.57.0" term="0.57.0"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Release Notes 0.56.0]]></title>
+        <id>https://sinews-mobile.github.io/sinews-portal-docs-source/blog/release-notes-0.56.0</id>
+        <link href="https://sinews-mobile.github.io/sinews-portal-docs-source/blog/release-notes-0.56.0"/>
+        <updated>2023-05-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Release 0.56.0 brings beautiful wallboards and bugfixes]]></summary>
+        <content type="html"><![CDATA[<p>Release 0.56.0 brings beautiful wallboards and bugfixes</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements:<a href="#enhancements" class="hash-link" aria-label="Direct link to Enhancements:" title="Direct link to Enhancements:">​</a></h3><ul><li>ICAP-1592 Dashboard shows 0 in DIDs statistics if DID component is restricted by API role</li><li>ICAP-1633 Show time intervals for auto-attendant menus based on the value of period</li><li>ICAP-1081 Highlight the tab with an error to help users understand why their changes cannot be saved</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bugfixes">Bugfixes:<a href="#bugfixes" class="hash-link" aria-label="Direct link to Bugfixes:" title="Direct link to Bugfixes:">​</a></h3><ul><li>ICAP-1636 The quick access panel overlaps the dashboard</li><li>ICAP-1726 Disable the Save button for widget dialogues if their mandatory fields are not filled in</li><li>ICAP-1757 Show "Transfer to fax mailbox" instead of "Transfer to voicemail" if fax_only_mode is inherited by the auto-attendant from its product</li><li>ICAP-1828 Remove the unnecessary scroll for the call volumes widget</li><li>ICAP-1836 Fields are jumping on validating the port for SIP contact</li><li>ICAP-1842 Tab names for SIP trunk details and AA menu</li><li>ICAP-1847 Impossible to assign device lines to extensions except for the first line</li><li>ICAP-1851 Device name is shown like model if the same device has several lines assigned to the same extension</li><li>ICAP-1852 Unassigned device is cached after re-opening the Assign device dialogue</li><li>ICAP-1860 Cannot upload MOH for call queue in Ring Group on CloudPBX UI</li><li>ICAP-1854 Layout issues on the dashboard</li><li>ICAP-1855 Extension is not shown for an active call</li><li>ICAP-1861 The Save button is active for the dialogue even if no changes are made for a device/port assigned to an extension</li><li>ICAP-1865 The call queue on-hold music is disabled after a ringback tone is changed for the same ring group</li><li>ICAP-1866 Link in "Access to the extension portal" section does not redirect to tab Device</li><li>ICAP-1867 Number of calls checkbox is missing for Call volumes widget</li><li>ICAP-1869 Enabled "Number of calls" option of a call volume widget is reset when the "Show" filter changes its value</li></ul>]]></content>
+        <author>
+            <name>Oleg Shevtsov</name>
+            <uri>https://www.linkedin.com/in/olegshevtsov/</uri>
+        </author>
+        <category label="release notes" term="release notes"/>
+        <category label="portal" term="portal"/>
+        <category label="0.56.0" term="0.56.0"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Release Notes 0.55.0]]></title>
+        <id>https://sinews-mobile.github.io/sinews-portal-docs-source/blog/release-notes-0.55.0</id>
+        <link href="https://sinews-mobile.github.io/sinews-portal-docs-source/blog/release-notes-0.55.0"/>
+        <updated>2023-05-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Release 0.55.0 brings SIP trunks and initial version of wallboards.]]></summary>
+        <content type="html"><![CDATA[<p>Release 0.55.0 brings SIP trunks and initial version of wallboards.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements:<a href="#enhancements" class="hash-link" aria-label="Direct link to Enhancements:" title="Direct link to Enhancements:">​</a></h3><ul><li>ICAP-28 Allow users to change their first or expired password</li><li>ICAP-1251 Shared line appearance</li><li>ICAP-1659 Force clear cache and hard reload when there's a version mismatch</li><li>ICAP-1676 Add a warning to Reset 2FA key dialogue</li><li>ICAP-1804 Add validation for a port range used with SIP contact</li><li>ICAP-1814 Add validation for duplicate web logins and invalid web passwords</li></ul><p><strong>Bugs:</strong></p><ul><li>ICAP-1830 Prohibit to change a user's role when permissions are View only</li><li>ICAP-1552 Add white spaces to time intervals in German and Portuguese</li><li>ICAP-1591 Use the same style for confirmation dialogs to delete an auto-attendant menu</li><li>ICAP-1668 Size of the selectors that set hours for call screening time intervals</li><li>ICAP-1734 Warning about unsaved changes appears after deleting an entity with unsaved changes</li><li>ICAP-1753 Auto-generate a web password with the length defined by option Web.PasswordMinLength</li><li>ICAP-1756 Remove undefined from the action of an auto-attendant menu for event:f</li><li>ICAP-1803 Default protocol is not shown when enabling SIP contact</li><li>ICAP-1827 Layout issue with a very small-size donut сhart</li><li>ICAP-1829 Restrict changes of a forwarding mode for a View-only permission</li><li>ICAP-1831 Widget to monitor call volumes can be created without default options</li><li>ICAP-1838 "Selected extensions/ring" group and "Time range" are validated as empty even after they were filled in</li><li>ICAP-1841 Fix the warning for the dialog to reset the 2FA key</li><li>ICAP-1845 Fix the styling of the hint on tab Extension</li><li>ICAP-1850 Assigned extension is not shown in "Edit line" dialogue on device page</li><li>ICAP-1857 Errors on attempt to save auto-generated new password in "My profile"</li><li>ICAP-1858 Incorrect password length is used to generate and validate user password</li></ul>]]></content>
+        <author>
+            <name>Oleg Shevtsov</name>
+            <uri>https://www.linkedin.com/in/olegshevtsov/</uri>
+        </author>
+        <category label="release notes" term="release notes"/>
+        <category label="portal" term="portal"/>
+        <category label="0.55.0" term="0.55.0"/>
+    </entry>
+</feed>
