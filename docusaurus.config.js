@@ -80,7 +80,7 @@ const config = {
             position: 'left',
             label: 'Tutorials',
           },
-          {to: '/blog', label: 'News and release notes', position: 'left'},
+          // {to: '/blog', label: 'News and release notes', position: 'left'},
           {
             href: 'https://github.com/sinews-mobile',
             label: 'GitHub',
@@ -104,26 +104,27 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'LinkedIn',
-                href: 'https://www.linkedin.com/company/portaone/',
+                label: 'Email',
+                href: 'mailto:sinewsmobileng@gmail.com',
+             
               },
               {
                 label: 'YouTube',
-                href: 'https://www.youtube.com/@PortaOne/',
+                href: 'https://www.youtube.com/@sinews-mobile',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/PortaOne',
+                label: 'X (formarly Twitter)',
+                href: 'https://x.com/@sinewsmobile',
               },
             ],
           },
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                href: 'https://blog.portaone.com/',
-              },
+              // {
+              //   label: 'Blog',
+              //   href: 'https://blog.portaone.com/',
+              // },
               {
                 label: 'GitHub',
                 href: 'https://github.com/sinews-mobile',
