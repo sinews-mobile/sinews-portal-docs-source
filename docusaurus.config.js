@@ -67,15 +67,17 @@ const config = {
     ({
       // Replace with your project's social card
       metadata: [
-        { name: 'og:image', content: 'img/og-image.png' },
-        { name: 'twitter:card', content: 'summary_large_image' },
-        { name: 'twitter:image', content: 'img/og-image.png' },
+        { name: 'description', content: 'Your site description here' },
+      { name: 'og:title', content: 'Sinews-Mobile Documentation' },
+      { name: 'og:image', content: '/img/og-image.png' },
+      { name: 'twitter:card', content: 'summary_large_image' },
+      { name: 'twitter:image', content: '/img/og-image.png' },
       ],
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Sinews-mobile',
         logo: {
-          alt: 'Sinews-Mobile documentation logo',
+          alt: 'Sinews-Mobile logo',
           src: 'img/SinewsMobile.png',
         },
         items: [
